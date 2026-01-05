@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "product_name": "Product 1",
+    "price": 1000,
+    "category": "Furniture",
+    "sku": "P-FU-001",
+    "quantity": 11,
+    "image": "https://images.unsplash.com/photo-1518441988250-6c17e0b3c6a5"
+  },
+  {
+    "id": 2,
+    "product_name": "Product 2",
+    "price": 2000,
+    "category": "Stationery",
+    "sku": "P-ST-002",
+    "quantity": 12,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+  },
+  {
+    "id": 3,
+    "product_name": "Product 3",
+    "price": 3000,
+    "category": "Accessories",
+    "sku": "P-AC-003",
+    "quantity": 13,
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc"
+  },
+  {
+    "id": 4,
+    "product_name": "Product 4",
+    "price": 4000,
+    "category": "Home Appliances",
+    "sku": "P-HA-004",
+    "quantity": 14,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657"
+  },
+  {
+    "id": 5,
+    "product_name": "Product 5",
+    "price": 5000,
+    "category": "Electronics",
+    "sku": "P-EL-005",
+    "quantity": 15,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "id": 6,
+    "product_name": "Product 6",
+    "price": 6000,
+    "category": "Furniture",
+    "sku": "P-FU-006",
+    "quantity": 16,
+    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01"
+  },
+  {
+    "id": 7,
+    "product_name": "Product 7",
+    "price": 7000,
+    "category": "Stationery",
+    "sku": "P-ST-007",
+    "quantity": 17,
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
+  },
+  {
+    "id": 8,
+    "product_name": "Product 8",
+    "price": 8000,
+    "category": "Accessories",
+    "sku": "P-AC-008",
+    "quantity": 18,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+  },
+  {
+    "id": 9,
+    "product_name": "Product 9",
+    "price": 9000,
+    "category": "Home Appliances",
+    "sku": "P-HA-009",
+    "quantity": 19,
+    "image": "https://images.unsplash.com/photo-1518441988250-6c17e0b3c6a5"
+  },
+  {
+    "id": 10,
+    "product_name": "Product 10",
+    "price": 10000,
+    "category": "Electronics",
+    "sku": "P-EL-010",
+    "quantity": 20,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+  },
+  {
+    "id": 11,
+    "product_name": "Product 11",
+    "price": 11000,
+    "category": "Furniture",
+    "sku": "P-FU-011",
+    "quantity": 21,
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc"
+  },
+  {
+    "id": 12,
+    "product_name": "Product 12",
+    "price": 12000,
+    "category": "Stationery",
+    "sku": "P-ST-012",
+    "quantity": 22,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657"
+  },
+  {
+    "id": 13,
+    "product_name": "Product 13",
+    "price": 13000,
+    "category": "Accessories",
+    "sku": "P-AC-013",
+    "quantity": 23,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "id": 14,
+    "product_name": "Product 14",
+    "price": 14000,
+    "category": "Home Appliances",
+    "sku": "P-HA-014",
+    "quantity": 24,
+    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01"
+  },
+  {
+    "id": 15,
+    "product_name": "Product 15",
+    "price": 15000,
+    "category": "Electronics",
+    "sku": "P-EL-015",
+    "quantity": 25,
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
+  },
+  {
+    "id": 16,
+    "product_name": "Product 16",
+    "price": 16000,
+    "category": "Furniture",
+    "sku": "P-FU-016",
+    "quantity": 26,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+  },
+  {
+    "id": 17,
+    "product_name": "Product 17",
+    "price": 17000,
+    "category": "Stationery",
+    "sku": "P-ST-017",
+    "quantity": 27,
+    "image": "https://images.unsplash.com/photo-1518441988250-6c17e0b3c6a5"
+  },
+  {
+    "id": 18,
+    "product_name": "Product 18",
+    "price": 18000,
+    "category": "Accessories",
+    "sku": "P-AC-018",
+    "quantity": 28,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+  },
+  {
+    "id": 19,
+    "product_name": "Product 19",
+    "price": 19000,
+    "category": "Home Appliances",
+    "sku": "P-HA-019",
+    "quantity": 29,
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc"
+  },
+  {
+    "id": 20,
+    "product_name": "Product 20",
+    "price": 20000,
+    "category": "Electronics",
+    "sku": "P-EL-020",
+    "quantity": 30,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657"
+  },
+  {
+    "id": 21,
+    "product_name": "Product 21",
+    "price": 21000,
+    "category": "Furniture",
+    "sku": "P-FU-021",
+    "quantity": 31,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "id": 22,
+    "product_name": "Product 22",
+    "price": 22000,
+    "category": "Stationery",
+    "sku": "P-ST-022",
+    "quantity": 32,
+    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01"
+  },
+  {
+    "id": 23,
+    "product_name": "Product 23",
+    "price": 23000,
+    "category": "Accessories",
+    "sku": "P-AC-023",
+    "quantity": 33,
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
+  },
+  {
+    "id": 24,
+    "product_name": "Product 24",
+    "price": 24000,
+    "category": "Home Appliances",
+    "sku": "P-HA-024",
+    "quantity": 34,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+  },
+  {
+    "id": 25,
+    "product_name": "Product 25",
+    "price": 25000,
+    "category": "Electronics",
+    "sku": "P-EL-025",
+    "quantity": 35,
+    "image": "https://images.unsplash.com/photo-1518441988250-6c17e0b3c6a5"
+  },
+  {
+    "id": 26,
+    "product_name": "Product 26",
+    "price": 26000,
+    "category": "Furniture",
+    "sku": "P-FU-026",
+    "quantity": 36,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+  },
+  {
+    "id": 27,
+    "product_name": "Product 27",
+    "price": 27000,
+    "category": "Stationery",
+    "sku": "P-ST-027",
+    "quantity": 37,
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc"
+  },
+  {
+    "id": 28,
+    "product_name": "Product 28",
+    "price": 28000,
+    "category": "Accessories",
+    "sku": "P-AC-028",
+    "quantity": 38,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657"
+  },
+  {
+    "id": 29,
+    "product_name": "Product 29",
+    "price": 29000,
+    "category": "Home Appliances",
+    "sku": "P-HA-029",
+    "quantity": 39,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "id": 30,
+    "product_name": "Product 30",
+    "price": 30000,
+    "category": "Electronics",
+    "sku": "P-EL-030",
+    "quantity": 40,
+    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01"
+  },
+  {
+    "id": 31,
+    "product_name": "Product 31",
+    "price": 31000,
+    "category": "Furniture",
+    "sku": "P-FU-031",
+    "quantity": 41,
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
+  },
+  {
+    "id": 32,
+    "product_name": "Product 32",
+    "price": 32000,
+    "category": "Stationery",
+    "sku": "P-ST-032",
+    "quantity": 42,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+  },
+  {
+    "id": 33,
+    "product_name": "Product 33",
+    "price": 33000,
+    "category": "Accessories",
+    "sku": "P-AC-033",
+    "quantity": 43,
+    "image": "https://images.unsplash.com/photo-1518441988250-6c17e0b3c6a5"
+  },
+  {
+    "id": 34,
+    "product_name": "Product 34",
+    "price": 34000,
+    "category": "Home Appliances",
+    "sku": "P-HA-034",
+    "quantity": 44,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+  },
+  {
+    "id": 35,
+    "product_name": "Product 35",
+    "price": 35000,
+    "category": "Electronics",
+    "sku": "P-EL-035",
+    "quantity": 45,
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc"
+  },
+  {
+    "id": 36,
+    "product_name": "Product 36",
+    "price": 36000,
+    "category": "Furniture",
+    "sku": "P-FU-036",
+    "quantity": 46,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657"
+  },
+  {
+    "id": 37,
+    "product_name": "Product 37",
+    "price": 37000,
+    "category": "Stationery",
+    "sku": "P-ST-037",
+    "quantity": 47,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "id": 38,
+    "product_name": "Product 38",
+    "price": 38000,
+    "category": "Accessories",
+    "sku": "P-AC-038",
+    "quantity": 48,
+    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01"
+  },
+  {
+    "id": 39,
+    "product_name": "Product 39",
+    "price": 39000,
+    "category": "Home Appliances",
+    "sku": "P-HA-039",
+    "quantity": 49,
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
+  },
+  {
+    "id": 40,
+    "product_name": "Product 40",
+    "price": 40000,
+    "category": "Electronics",
+    "sku": "P-EL-040",
+    "quantity": 50,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+  },
+  {
+    "id": 41,
+    "product_name": "Product 41",
+    "price": 41000,
+    "category": "Furniture",
+    "sku": "P-FU-041",
+    "quantity": 51,
+    "image": "https://images.unsplash.com/photo-1518441988250-6c17e0b3c6a5"
+  },
+  {
+    "id": 42,
+    "product_name": "Product 42",
+    "price": 42000,
+    "category": "Stationery",
+    "sku": "P-ST-042",
+    "quantity": 52,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+  },
+  {
+    "id": 43,
+    "product_name": "Product 43",
+    "price": 43000,
+    "category": "Accessories",
+    "sku": "P-AC-043",
+    "quantity": 53,
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc"
+  },
+  {
+    "id": 44,
+    "product_name": "Product 44",
+    "price": 44000,
+    "category": "Home Appliances",
+    "sku": "P-HA-044",
+    "quantity": 54,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657"
+  },
+  {
+    "id": 45,
+    "product_name": "Product 45",
+    "price": 45000,
+    "category": "Electronics",
+    "sku": "P-EL-045",
+    "quantity": 55,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "id": 46,
+    "product_name": "Product 46",
+    "price": 46000,
+    "category": "Furniture",
+    "sku": "P-FU-046",
+    "quantity": 56,
+    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01"
+  },
+  {
+    "id": 47,
+    "product_name": "Product 47",
+    "price": 47000,
+    "category": "Stationery",
+    "sku": "P-ST-047",
+    "quantity": 57,
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
+  },
+  {
+    "id": 48,
+    "product_name": "Product 48",
+    "price": 48000,
+    "category": "Accessories",
+    "sku": "P-AC-048",
+    "quantity": 58,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+  },
+  {
+    "id": 49,
+    "product_name": "Product 49",
+    "price": 49000,
+    "category": "Home Appliances",
+    "sku": "P-HA-049",
+    "quantity": 59,
+    "image": "https://images.unsplash.com/photo-1518441988250-6c17e0b3c6a5"
+  },
+  {
+    "id": 50,
+    "product_name": "Product 50",
+    "price": 50000,
+    "category": "Electronics",
+    "sku": "P-EL-050",
+    "quantity": 60,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+  }
+]
