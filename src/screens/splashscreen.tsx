@@ -15,20 +15,22 @@ const SplashScreen = () => {
 
 
     const gotoPOSLogin = ()=> navigate("/pos/auth")
+    const gotoDashboardLogin = ()=> navigate("/dashboard/auth")
 
 
 
     return (
-        <div className="bg-[url(/assets/splash3.jpeg)] bg-cover bg-center min-h-screen flex justify-center items-center gap-10">
-            <div className="backdrop-blur-md p-20 shadow-2xl rounded-md flex flex-col gap-5">
+        <div className="bg-[whitesmoke] min-h-screen flex justify-center items-center gap-10">
+           
 
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5}}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={transition as any}
+                    className="bg-white"
                 >
                     <button
-                        className="backdrop-blur-sm w-75 h-12.5 text-white cursor-pointer rounded-md hover:shadow-xl border"
+                        className="white w-75 h-12.5 text-blue-500 cursor-pointer rounded-md hover:shadow-xl border"
                         onClick={gotoPOSLogin}
                     >
                         Login to POS
@@ -38,11 +40,13 @@ const SplashScreen = () => {
                 // initial={{}}
                 >
                     <button
-                        className="backdrop-blur-sm w-75 h-12.5 text-white cursor-pointer rounded-md hover:shadow-xl border">
+                        className="bg-blue-600 w-75 h-12.5 text-white cursor-pointer rounded-md hover:shadow-xl border"
+                        onClick={gotoDashboardLogin}
+                    >
                         Login to Dashboard
                     </button>
                 </motion.div>
-            </div>
+          
 
         </div>
     )
