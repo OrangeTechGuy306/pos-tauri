@@ -14,7 +14,7 @@ const DashboardLayout = ({children}: {children: ReactNode}) => {
         </aside>
 
 
-        <main className="col-span-4 h-screen p-5">{children}</main>
+        <main className="col-span-4 p-5 h-screen">{children}</main>
 
         {/* <article className="col-span-1 bg-white h-screen"></article> */}
     </section>
