@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "user_id": "USR-001",
+    "name": "Rachael Ojo",
+    "email": "rachael.ojо@example.com",
+    "role": "admin",
+    "status": "active",
+    "phone": "+2348012345678",
+    "avatar": "https://i.pravatar.cc/150?img=1",
+    "date": "2025-12-01T09:15:30.000Z"
+  },
+  {
+    "id": 2,
+    "user_id": "USR-002",
+    "name": "John Ade",
+    "email": "john.ade@example.com",
+    "role": "cashier",
+    "status": "active",
+    "phone": "+2348098765432",
+    "avatar": "https://i.pravatar.cc/150?img=2",
+    "date": "2025-12-03T11:45:12.000Z"
+  },
+  {
+    "id": 3,
+    "user_id": "USR-003",
+    "name": "Mary Bello",
+    "email": "mary.bello@example.com",
+    "role": "manager",
+    "status": "inactive",
+    "phone": "+2347034567890",
+    "avatar": "https://i.pravatar.cc/150?img=3",
+    "date": "2025-12-05T14:22:08.000Z"
+  },
+  {
+    "id": 4,
+    "user_id": "USR-004",
+    "name": "Samuel Okafor",
+    "email": "samuel.okafor@example.com",
+    "role": "cashier",
+    "status": "active",
+    "phone": "+2348123456789",
+    "avatar": "https://i.pravatar.cc/150?img=4",
+    "date": "2025-12-07T16:10:45.000Z"
+  },
+  {
+    "id": 5,
+    "user_id": "USR-005",
+    "name": "Aisha Musa",
+    "email": "aisha.musa@example.com",
+    "role": "manager",
+    "status": "active",
+    "phone": "+2348065432109",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "date": "2025-12-10T11:05:20.000Z"
+  }
+]

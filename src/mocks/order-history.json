@@ -1,0 +1,222 @@
+[
+  {
+    "order_id": "ORD-1021",
+    "transaction_id": "TXN-1021",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Product 23",
+        "sku": "P-EL-023",
+        "category": "Electronics",
+        "unit_price": 10373,
+        "quantity": 4,
+        "subtotal": 41492
+      }
+    ],
+    "total_items": 4,
+    "order_total": 41492,
+    "payment": { "method": "Wallet", "status": "completed" },
+    "order_status": "completed",
+    "transaction_date": "2025-12-18T14:28:53.629275",
+    "notes": "Offline purchase"
+  },
+  {
+    "order_id": "ORD-1022",
+    "transaction_id": "TXN-1022",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Product 10",
+        "sku": "P-EL-010",
+        "category": "Electronics",
+        "unit_price": 38515,
+        "quantity": 3,
+        "subtotal": 115545
+      }
+    ],
+    "total_items": 3,
+    "order_total": 115545,
+    "payment": { "method": "Card", "status": "pending" },
+    "order_status": "processing",
+    "transaction_date": "2025-12-17T14:28:53.629275",
+    "notes": "Awaiting payment confirmation"
+  },
+  {
+    "order_id": "ORD-1023",
+    "transaction_id": "TXN-1023",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Product 26",
+        "sku": "P-HM-026",
+        "category": "Home",
+        "unit_price": 19503,
+        "quantity": 1,
+        "subtotal": 19503
+      }
+    ],
+    "total_items": 1,
+    "order_total": 19503,
+    "payment": { "method": "Cash", "status": "failed" },
+    "order_status": "cancelled",
+    "transaction_date": "2025-12-16T14:28:53.629275",
+    "notes": "Payment failed at counter"
+  },
+  {
+    "order_id": "ORD-1024",
+    "transaction_id": "TXN-1024",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Product 10",
+        "sku": "P-EL-010",
+        "category": "Electronics",
+        "unit_price": 15978,
+        "quantity": 2,
+        "subtotal": 31956
+      }
+    ],
+    "total_items": 2,
+    "order_total": 31956,
+    "payment": { "method": "Card", "status": "pending" },
+    "order_status": "processing",
+    "transaction_date": "2025-12-15T14:28:53.629275",
+    "notes": "POS pending"
+  },
+  {
+    "order_id": "ORD-1025",
+    "transaction_id": "TXN-1025",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Product 23",
+        "sku": "P-EL-023",
+        "category": "Electronics",
+        "unit_price": 33088,
+        "quantity": 4,
+        "subtotal": 132352
+      }
+    ],
+    "total_items": 4,
+    "order_total": 132352,
+    "payment": { "method": "Bank Transfer", "status": "completed" },
+    "order_status": "completed",
+    "transaction_date": "2025-12-14T14:28:53.629275",
+    "notes": "Bank transfer confirmed"
+  },
+  {
+    "order_id": "ORD-1026",
+    "transaction_id": "TXN-1026",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Product 22",
+        "sku": "P-HM-022",
+        "category": "Home",
+        "unit_price": 48237,
+        "quantity": 3,
+        "subtotal": 144711
+      }
+    ],
+    "total_items": 3,
+    "order_total": 144711,
+    "payment": { "method": "Wallet", "status": "failed" },
+    "order_status": "cancelled",
+    "transaction_date": "2025-12-13T14:28:53.629275",
+    "notes": "Wallet debit failed"
+  },
+  {
+    "order_id": "ORD-1027",
+    "transaction_id": "TXN-1027",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 43,
+        "product_name": "Product 43",
+        "sku": "P-EL-043",
+        "category": "Electronics",
+        "unit_price": 33279,
+        "quantity": 2,
+        "subtotal": 66558
+      }
+    ],
+    "total_items": 2,
+    "order_total": 66558,
+    "payment": { "method": "Wallet", "status": "pending" },
+    "order_status": "processing",
+    "transaction_date": "2025-12-12T14:28:53.629275",
+    "notes": "Awaiting wallet confirmation"
+  },
+  {
+    "order_id": "ORD-1028",
+    "transaction_id": "TXN-1028",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Product 22",
+        "sku": "P-HM-022",
+        "category": "Home",
+        "unit_price": 37681,
+        "quantity": 4,
+        "subtotal": 150724
+      }
+    ],
+    "total_items": 4,
+    "order_total": 150724,
+    "payment": { "method": "Card", "status": "failed" },
+    "order_status": "cancelled",
+    "transaction_date": "2025-12-11T14:28:53.629275",
+    "notes": "Card declined"
+  },
+  {
+    "order_id": "ORD-1029",
+    "transaction_id": "TXN-1029",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Product 3",
+        "sku": "P-EL-003",
+        "category": "Electronics",
+        "unit_price": 46574,
+        "quantity": 5,
+        "subtotal": 232870
+      }
+    ],
+    "total_items": 5,
+    "order_total": 232870,
+    "payment": { "method": "Wallet", "status": "completed" },
+    "order_status": "completed",
+    "transaction_date": "2025-12-10T14:28:53.629275",
+    "notes": "Successful POS sale"
+  },
+  {
+    "order_id": "ORD-1030",
+    "transaction_id": "TXN-1030",
+    "sale_type": "in_store",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Product 11",
+        "sku": "P-FU-011",
+        "category": "Furniture",
+        "unit_price": 11000,
+        "quantity": 2,
+        "subtotal": 22000
+      }
+    ],
+    "total_items": 2,
+    "order_total": 22000,
+    "payment": { "method": "Cash", "status": "failed" },
+    "order_status": "cancelled",
+    "transaction_date": "2025-12-09T14:28:53.629275",
+    "notes": "Cash payment not completed"
+  }
+]
