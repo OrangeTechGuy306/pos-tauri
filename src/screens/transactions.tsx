@@ -10,6 +10,7 @@ export const Transactions = () => {
     <>
     <DashboardLayout>
         <TitleText title='Transactions' />
+      
         <div className='h-[90vh] overflow-y-scroll mt-5'>
           <TransactionTable transactions={transactions} />
         </div>
