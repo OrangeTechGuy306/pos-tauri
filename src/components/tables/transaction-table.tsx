@@ -7,6 +7,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { TransactionProps } from '../../types';
 import moment from "moment"
+import CustomModalComponent from '../modals/custom-modal';
 
 const TransactionTable = ({transactions} : {transactions: TransactionProps[]}) => {
     return (
@@ -38,7 +39,8 @@ const TransactionTable = ({transactions} : {transactions: TransactionProps[]}) =
                             <TableCell>
                                 {moment(transaction.transaction_date).format("DD-MM-YYYY hh:mm:ss")}
                             </TableCell>
-                            <TableCell><button>view</button></TableCell>
+                            <TableCell><CustomModalComponent btnText='view'
+            title='Transaction Details'/></TableCell>
                         </TableRow>
                     ))}
                 </TableBody>

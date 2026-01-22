@@ -3,9 +3,9 @@ import DashboardLayout from '../components/dashboardlayout'
 import TitleText from '../components/title-text'
 import ProductCard from "../components/product-card"
 import products from "../mocks/products.json"
-import CustomModalComponent from '../components/modals/custom-modal'
-import CustomInput from '../components/custom-input'
-import DropdownComponent from '../components/dropdown'
+// import CustomModalComponent from '../components/modals/custom-modal'
+// import CustomInput from '../components/custom-input'
+// import DropdownComponent from '../components/dropdown'
 import AddProductModal from '../components/modals/add-product'
 
 

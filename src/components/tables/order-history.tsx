@@ -7,6 +7,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { OrderProps } from "../../types";
 import moment from "moment";
+import CustomModalComponent from "../modals/custom-modal";
 
 const OrderHistory = ({ Orders }: { Orders: OrderProps[] }) => {
   return (
@@ -49,7 +50,8 @@ const OrderHistory = ({ Orders }: { Orders: OrderProps[] }) => {
                     )}
                   </TableCell>
                   <TableCell>
-                    <button>view</button>
+                    <button><CustomModalComponent  btnText='view order'
+            title='view order datails'/></button>
                   </TableCell>
                 </TableRow>
               ))}

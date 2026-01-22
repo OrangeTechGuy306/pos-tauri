@@ -37,7 +37,7 @@ const CustomModalComponent = ({btnText, title, children}: CustomModalProps) => {
     };
     return (
         <div>
-            <Button variant="outlined" onClick={handleClickOpen}>
+            <Button variant="outlined" onClick={handleClickOpen} sx={{textTransform:"capitalize"}}>
                 {btnText}
             </Button>
             <Dialog

@@ -6,6 +6,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { UserProps } from "../../types";
+import CustomModalComponent from "../modals/custom-modal";
 
 const UserTable = ({user}: {user: UserProps[]}) => {
   return (
@@ -42,7 +43,8 @@ const UserTable = ({user}: {user: UserProps[]}) => {
                 <TableCell>{user.date}</TableCell>
                  
                 <TableCell>
-                  <button>view</button>
+                  <CustomModalComponent btnText='user details'
+            title='User Details'/>
                 </TableCell>
               </TableRow>
             ))}

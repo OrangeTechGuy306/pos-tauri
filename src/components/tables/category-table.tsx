@@ -6,6 +6,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { CategoryProps} from "../../types";
+import CustomModalComponent from "../modals/custom-modal";
 
 const CategoryTable = ({category} : {category: CategoryProps[]}) => {
   return (
@@ -39,7 +40,8 @@ const CategoryTable = ({category} : {category: CategoryProps[]}) => {
                 <TableCell>{category.description}</TableCell>
                 <TableCell>{category.status}</TableCell>
                 <TableCell>
-                  <button>view</button>
+                  <CustomModalComponent btnText='view cat'
+            title='Category Details'/>
                 </TableCell>
               </TableRow>
             ))}

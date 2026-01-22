@@ -6,6 +6,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { ProductProps } from '../../types';
+import CustomModalComponent from '../modals/custom-modal';
 
 const InventoryTable = ({products}:{products: ProductProps[]}) => {
 
@@ -40,7 +41,10 @@ const InventoryTable = ({products}:{products: ProductProps[]}) => {
               <TableCell>{product.category}</TableCell>
               <TableCell>{product.quantity}</TableCell>
               <TableCell>{product.sku}</TableCell>
-              <TableCell><button>view</button></TableCell>
+              <TableCell>
+                <CustomModalComponent  btnText='View'
+            title='inventory details'/>
+                </TableCell>
             </TableRow>
           ))}
         </TableBody>

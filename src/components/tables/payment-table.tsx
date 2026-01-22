@@ -7,6 +7,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { PaymentProps} from '../../types';
 import moment from "moment"
+import CustomModalComponent from '../modals/custom-modal';
 
 const PaymentTable = ({payments} : {payments : PaymentProps[]}) => {
   return (
@@ -40,7 +41,8 @@ const PaymentTable = ({payments} : {payments : PaymentProps[]}) => {
                             <TableCell>
                                 {moment(payment.payment_date).format("DD-MM-YYYY hh:mm:ss")}
                             </TableCell>
-                            <TableCell><button>view</button></TableCell>
+                            <TableCell><CustomModalComponent  btnText='View payment'
+            title='view payment history'/></TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
